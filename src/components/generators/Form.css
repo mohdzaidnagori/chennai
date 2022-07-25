@@ -1,0 +1,24 @@
+.table-align-center{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+.button-table-padding{
+    padding: 10px 20px !important;
+}
+.password-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+
+}
+.password-button{
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: var(--main-color-blue);
+    border-radius: 5px;
+    padding: 11px 30px;
+    color: white;
+    font-weight: medium;
+}

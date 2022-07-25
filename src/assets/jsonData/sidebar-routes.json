@@ -1,0 +1,25 @@
+[
+   
+    
+    {
+        "display_name": "Video",
+        "route": "/",
+        "icon": "bx bx-video"
+    },
+    {
+        "display_name":"Password",
+        "route":"/password",
+        "icon":"bx bx-code-alt"
+    },
+    {
+        "display_name": "Turnament",
+        "route":"/image",
+        "icon": "bx bxs-tennis-ball"
+    },
+    {
+        "display_name": "User Login",
+        "route":"/user-login",
+        "icon": "bx bx-lock-open"
+    }
+ 
+]
