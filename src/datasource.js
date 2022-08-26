@@ -106,3 +106,54 @@ export const userColumns = [
     { field: "PassValue", headerName: "Password",width:'200' },
     { field: "date", headerName: "Date",width:'300' }
   ]
+  export const nftdata = [
+    {
+      field: "id",
+      headerName: "ID",
+      width:'50',
+      renderCell: (params) => {
+         return params.api.getRowIndex(params.row.id) + 1
+      }
+      
+    },
+    {
+      field: "title",
+      headerName: "Title",
+      width:'150'
+    },
+    {
+      field: "type",
+      headerName: "Type",
+      width:'150'
+    },
+    {
+      field: "details",
+      headerName: "Details",
+      width:'150'
+    },
+    {
+      field: "address",
+      headerName: "Address",
+      width:'150'
+    },
+    {
+      field: "creator",
+      headerName: "Creator",
+      width:'150'
+    },
+    {
+      field: "link",
+      headerName: "Link",
+      width:'150'
+    },
+    {
+      field: "collection",
+      headerName: "Collection",
+      width:'150'
+    },
+    {
+      field: "file_path",
+      headerName: "Path",
+      width:'570'
+    },
+  ]

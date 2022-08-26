@@ -20,6 +20,11 @@
         "display_name": "User Login",
         "route":"/user-login",
         "icon": "bx bx-lock-open"
+    },
+    {
+        "display_name": "NFT",
+        "route":"/nft",
+        "icon": "bx bxl-meta"
     }
  
 ]

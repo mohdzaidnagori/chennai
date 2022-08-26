@@ -21,6 +21,7 @@ import Addplayer from '../../turnament/turnamentTable/Addplayer';
 import Generators from '../../pages/Generators';
 import Images from '../../pages/Images';
 import User from '../../pages/User';
+import Nft from '../../pages/Nft';
 
 
 
@@ -81,6 +82,11 @@ const Layout = () => {
                     <Route  path="/user-login" element={
                     <RequireAuth>
                     <User />
+                    </RequireAuth>
+                  } />
+                  <Route  path="/Nft" element={
+                    <RequireAuth>
+                    <Nft />
                     </RequireAuth>
                   } />
                   {/* <Route  path="/video/add" element={

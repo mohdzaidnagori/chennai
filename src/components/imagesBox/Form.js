@@ -30,7 +30,7 @@ const Form = () => {
           return; 
         }
         if(file.size > 1159711){
-            toast.error("Video Size less than 1 MB")
+            toast.error("Image Size less than 1 MB")
             return; 
           }
         var reader = new FileReader();
