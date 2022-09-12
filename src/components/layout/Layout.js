@@ -22,6 +22,8 @@ import Generators from '../../pages/Generators';
 import Images from '../../pages/Images';
 import User from '../../pages/User';
 import Nft from '../../pages/Nft';
+import ExcelNft from '../../pages/ExcelNft';
+import View from '../../pages/View';
 
 
 
@@ -87,6 +89,16 @@ const Layout = () => {
                   <Route  path="/Nft" element={
                     <RequireAuth>
                     <Nft />
+                    </RequireAuth>
+                  } />
+                    <Route  path='/view' element={
+                    <RequireAuth>
+                    <View />
+                    </RequireAuth>
+                  } />
+                   <Route  path="/excelnft" element={
+                    <RequireAuth>
+                    <ExcelNft />
                     </RequireAuth>
                   } />
                   {/* <Route  path="/video/add" element={

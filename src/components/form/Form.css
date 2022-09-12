@@ -141,3 +141,27 @@
   color: white;
   border-radius: 5px;
 }
+.soldNft{
+  width: 70px;
+  background-color: var(--main-color-blue);
+  height: 37px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+}
+.unsoldNft{
+  background-color: rgb(25, 180, 1);
+}
+.soldNft input[type="checkbox"]{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+.nftheader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

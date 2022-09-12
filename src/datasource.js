@@ -108,12 +108,38 @@ export const userColumns = [
   ]
   export const nftdata = [
     {
+      field: "listid",
+      headerName: "ID",
+      width:'50',  
+    },
+    {
+      field: "title",
+      headerName: "Title",
+      width:'150'
+    },
+    {
+      field: "link",
+      headerName: "Link",
+      width:'150'
+    },
+    {
+      field: "desc",
+      headerName: "Description",
+      width:'150'
+    },
+    {
+      field: "filePath",
+      headerName: "Path",
+      width:'350'
+    },
+  ]
+
+  export const nftColumn = [
+    {
       field: "id",
       headerName: "ID",
       width:'50',
-      renderCell: (params) => {
-         return params.api.getRowIndex(params.row.id) + 1
-      }
+    
       
     },
     {
@@ -152,8 +178,12 @@ export const userColumns = [
       width:'150'
     },
     {
-      field: "file_path",
-      headerName: "Path",
-      width:'570'
+      field: "path",
+      headerName: "Image Path",
+      width:'150'
     },
   ]
+
+//   renderCell: (params) => {
+//     return params.api.getRowIndex(params.row.listID) + 1
+//  }
